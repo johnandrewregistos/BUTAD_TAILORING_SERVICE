@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&family=Source+Serif+4:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Source Serif 4', serif;
+}
+
+.active {
+  color: #ffff;
+  border-radius: 100%;
+}
+
+.icon {
+  background-image: url(./assets/tailoring_icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(./assets/main_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img1 {
+  background-image: url(./assets/uniforms1.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.img2 {
+  background-image: url(./assets/uniforms2.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.img3 {
+  background-image: url(./assets/uniforms3.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.img4 {
+  background-image: url(./assets/pants1.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
